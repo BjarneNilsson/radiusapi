@@ -81,7 +81,7 @@ namespace api.Controllers
       connection.Dispose();
     }
     [HttpDelete("DeleteUser")]
-    public void DerleteUser( string User)
+    public void DeleteUser( string User)
     {
             NpgsqlConnection connection = new NpgsqlConnection("Host=10.47.1.235;Username=radius;Password=radauth;Database=radius");
             connection.Open();
