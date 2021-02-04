@@ -97,6 +97,7 @@ namespace api.Controllers
             connection.Close();
             npgsqlCommand.Dispose();
             connection.Dispose();
+            //test
 
         }
   }
