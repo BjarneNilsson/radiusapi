@@ -1,6 +1,6 @@
 Api to manage database for freeradius (https termineted on reverse proxy in front of app)
 api assume use of postgresql
-
+''''
 Schema for Parameters.json
 "Logging": {
     "LogLevel": {
@@ -21,5 +21,6 @@ net.holmedal (https://github.com/BjarneNilsson/RadiusClientLib)
 Npgsql (nuget)
 System.IO;
 Microsoft.Extensions.Configuration (nuget)
+''''
 
 
